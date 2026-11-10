@@ -1,27 +1,42 @@
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Griffin - Building & Tech - RVTTI Eldoret</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Griffin | Building Technologist & Web Dev - Eldoret</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
 <style>
-body{background:#0a0a0a;color:#fff;font-family:system-ui;padding:20px;line-height:1.6}
-h1{font-size:48px;margin:0}h1 span{color:#00ff88}
-.tag{border:1px solid #333;padding:6px 12px;border-radius:20px;display:inline-block;margin:4px;font-size:13px;color:#00ff88}
-.card{background:#111;border:1px solid #222;padding:20px;border-radius:16px;margin:12px 0}
-.btn{display:inline-block;padding:14px 22px;border-radius:12px;text-decoration:none;font-weight:700;margin:6px}
-.green{background:#00ff88;color:#000}.dark{background:#222;color:#fff;border:1px solid #333}
-.quote{border-left:3px solid #00ff88;padding-left:12px;color:#aaa;font-style:italic;margin:20px 0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#080808;color:#e5e5e5;font-family:'Inter',-apple-system,sans-serif;line-height:1.6}
+.wrap{max-width:780px;margin:0 auto;padding:24px 18px}
+.badge{display:inline-flex;gap:8px;border:1px solid #1e3a28;background:#0f1f17;color:#00ff88;font-family:'JetBrains Mono',monospace;font-size:11px;padding:7px 14px;border-radius:999px}
+h1{font-size:clamp(36px,8vw,56px);font-weight:800;line-height:0.95;margin:18px 0;letter-spacing:-2px}
+h1 .green{color:#00ff88}
+.sub{color:#9a9a9a;font-size:17px;max-width:520px;margin:10px 0 20px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 28px}
+.btn{padding:13px 20px;border-radius:10px;font-weight:700;font-size:14px;text-decoration:none;display:inline-block}
+.btn-p{background:#00ff88;color:#000}.btn-s{background:#151515;color:#fff;border:1px solid #252525}
+.card{background:#111;border:1px solid #1f1f1f;border-radius:16px;padding:20px;margin:14px 0}
+.tag{display:inline-block;border:1px solid #262626;background:#161616;color:#00ff88;font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 10px;border-radius:999px;margin:4px 4px 0 0}
+.quote{border-left:3px solid #00ff88;padding:10px 14px;background:#101010;border-radius:0 10px 10px 0;color:#8a8a8a;font-style:italic;font-size:14px;margin:22px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+.footer{color:#444;font-family:'JetBrains Mono',monospace;font-size:11px;text-align:center;margin:40px 0 10px;padding-top:20px;border-top:1px solid #151515}
+a.link{color:#00ff88;text-decoration:none;font-weight:600}
 </style></head><body>
-<div style="color:#00ff88;font-size:12px;border:1px solid #1a3a2a;display:inline-block;padding:6px 14px;border-radius:20px;background:#0f1f17">● Available for work in Eldoret & Remote</div>
-<h1>Griffin<br><span>Builder + Writer + Dev</span></h1>
-<p>I build fast websites, technical guides & clean construction docs that people actually remember. Building & Construction student at RVTTI Eldoret, Kenya.</p>
-<p><a class="btn green" href="https://github.com/larry254-tech" target="_blank">View GitHub</a>
-<a class="btn dark" href="https://wa.me/254799302643" target="_blank">WhatsApp Me</a></p>
-<div class="quote">"From building sites to building websites - same precision, same foundation. God will."</div>
-<h2>What I Do</h2>
-<div class="card"><h3>🏗️ Building Technology</h3><p>Site practices, materials, finishes. Student at RVTTI, I document real work.</p><span class="tag">RVTTI • Construction • Eldoret</span></div>
-<div class="card"><h3>✍️ Technical Writing</h3><p>Installation tutorials, building process breakdowns, clear guides.</p><span class="tag">How-To Guides • Documentation</span></div>
-<div class="card"><h3>💻 Web Development</h3><p>Portfolio sites, business pages. Built & deployed FROM PHONE.</p><span class="tag">HTML • CSS • JS • GitHub</span></div>
-<h2>Featured Work</h2>
-<div class="card"><h3>larry254-tech.github.io</h3><p>This portfolio. Built in Termux on Android, pushed via Git. V1→V2→V3 in 1 morning.</p><span class="tag">Live Site • 2026</span><p><a href="https://github.com/larry254-tech/larry254-tech.github.io" style="color:#00ff88;text-decoration:none">→ View Source Code</a></p></div>
-<div class="card"><h3>Your Project Here?</h3><p>Need website for construction business, hardware shop, or personal brand? Lets build.</p><p><a class="btn green" href="https://wa.me/254799302643">Start on WhatsApp 0799302643</a></p></div>
-<p style="color:#555;text-align:center;margin-top:40px">Built on phone • Eldoret, Kenya • 2026 • Griffin - RVTTI</p>
+<div class="wrap">
+<div class="badge">● AVAILABLE FOR WORK — ELDORET & REMOTE • RVTTI</div>
+<h1>Griffin<br><span class="green">Builder +<br>Writer + Dev.</span></h1>
+<p class="sub">Building & Construction student at RVTTI Eldoret. I build fast websites, technical guides & clean construction docs.</p>
+<div class="btns">
+<a class="btn btn-p" href="https://github.com/larry254-tech" target="_blank">GitHub →</a>
+<a class="btn btn-s" href="https://wa.me/254799302643" target="_blank">WhatsApp</a>
+</div>
+<div class="quote">"From building sites to building websites — same precision, same foundation. God will."</div>
+<div class="grid">
+<div class="card"><h3>Building Tech</h3><p>Site practices, materials, finishes. RVTTI.</p><span class="tag">RVTTI</span><span class="tag">ELDORET</span></div>
+<div class="card"><h3>Technical Writing</h3><p>How-to guides, building breakdowns.</p><span class="tag">GUIDES</span></div>
+<div class="card"><h3>Web Dev</h3><p>Business sites built FROM PHONE.</p><span class="tag">HTML • CSS • GITHUB</span></div>
+<div class="card"><h3>Eldoret Based</h3><p>Available for projects town & remote.</p><span class="tag">0799302643</span></div>
+</div>
+<div class="card"><h3>larry254-tech.github.io — This Portfolio</h3><p>V1→V4 in one day. Built in Termux, no laptop.</p><p style="margin-top:12px"><a class="link" href="https://github.com/larry254-tech/larry254-tech.github.io">View source →</a></p></div>
+<div class="footer">BUILT ON PHONE • ELDORET • 2026 • GRIFFIN • V4</div>
+</div>
 </body></html>
